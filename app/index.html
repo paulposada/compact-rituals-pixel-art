@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing Balls with GSAP and Mouse Repulsion</title>
+    <style>
+        body {
+            background-color: transparent;
+            display: flex;
+            height: 100%;
+            height: -moz-available;
+            height: -webkit-fill-available;
+            width: 100%;
+            justify-content: center;
+        }
+        #container {
+            position: relative;
+            width: 800px;
+            /* min-height: 200px; */
+            height: 600px;
+            border: 1px solid #000;
+            overflow: hidden;
+        }
+
+        .ball {
+            position: absolute;
+            background-color: rgba(17, 188, 204, 0.311);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="../src/animate.js"> 
+    </script>
+</body>
+
+</html>
